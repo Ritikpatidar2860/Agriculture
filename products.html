@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Our Products - GreenFarm</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <style>
+        body {
+            background-color: #f8f9fa;
+        }
+        .product-card img {
+            height: 200px;
+            object-fit: cover;
+        }
+        .product-card {
+            transition: 0.3s;
+        }
+        .product-card:hover {
+            transform: scale(1.05);
+        }
+        .page-header {
+            background: url('https://images.unsplash.com/photo-1500937386664-56d1dfef3854') no-repeat center center/cover;
+            color: white;
+            padding: 80px 0;
+            text-align: center;
+        }
+        .overlay {
+            background: rgba(0,0,0,0.6);
+            padding: 60px 0;
+        }
+    </style>
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-black">
+  <div class="container">
+    <a class="navbar-brand" href="index.html">AgriFarm</a>
+
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="nav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="services.html">Services</a></li>
+        <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- Page Header -->
+<section class="page-header">
+    <div class="overlay">
+        <div class="container">
+            <h1 class="fw-bold">Our Fresh Farm Products</h1>
+            <p>100% Organic & Naturally Grown</p>
+        </div>
+    </div>
+</section>
+
+<!-- Products Section -->
+<section class="py-5">
+    <div class="container">
+        <div class="row g-4">
+
+            <!-- Product 1 -->
+            <div class="col-md-4">
+                <div class="card product-card shadow">
+                    <img src="https://images.unsplash.com/photo-1574323347407-f5e1ad6d020b" class="card-img-top" alt="Wheat">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Organic Wheat</h5>
+                        <p class="card-text">High quality farm-grown wheat for healthy living.</p>
+                        <h6 class="text-success">₹40 / kg</h6>
+                        <button class="btn btn-success w-100">Buy Now</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Product 2 -->
+            <div class="col-md-4">
+                <div class="card product-card shadow">
+                    <img src="https://images.unsplash.com/photo-1586201375761-83865001e31c" class="card-img-top" alt="Rice">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Premium Rice</h5>
+                        <p class="card-text">Naturally cultivated rice with rich taste.</p>
+                        <h6 class="text-success">₹55 / kg</h6>
+                        <button class="btn btn-success w-100">Buy Now</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Product 3 -->
+            <div class="col-md-4">
+                <div class="card product-card shadow">
+                    <img src="https://images.unsplash.com/photo-1542838132-92c53300491e" class="card-img-top" alt="Vegetables">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Fresh Vegetables</h5>
+                        <p class="card-text">Daily harvested fresh and organic vegetables.</p>
+                        <h6 class="text-success">₹30 / kg</h6>
+                        <button class="btn btn-success w-100">Buy Now</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Product 4 -->
+            <div class="col-md-4">
+                <div class="card product-card shadow">
+                    <img src="https://images.unsplash.com/photo-1601004890684-d8cbf643f5f2" class="card-img-top" alt="Fruits">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Organic Fruits</h5>
+                        <p class="card-text">Sweet and chemical-free farm fruits.</p>
+                        <h6 class="text-success">₹80 / kg</h6>
+                        <button class="btn btn-success w-100">Buy Now</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Product 5 -->
+            <div class="col-md-4">
+                <div class="card product-card shadow">
+                    <img src="https://images.unsplash.com/photo-1585238342028-4e7f5f46b34b" class="card-img-top" alt="Milk">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Fresh Milk</h5>
+                        <p class="card-text">Pure dairy milk from healthy farm cows.</p>
+                        <h6 class="text-success">₹60 / litre</h6>
+                        <button class="btn btn-success w-100">Buy Now</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Product 6 -->
+            <div class="col-md-4">
+                <div class="card product-card shadow">
+                    <img src="https://images.unsplash.com/photo-1592928303297-3a87d0bffb94" class="card-img-top" alt="Corn">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Sweet Corn</h5>
+                        <p class="card-text">Naturally grown sweet corn for healthy meals.</p>
+                        <h6 class="text-success">₹35 / kg</h6>
+                        <button class="btn btn-success w-100">Buy Now</button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<!-- Footer -->
+<footer class="bg-success text-white text-center py-3">
+    <p class="mb-0">© 2026 GreenFarm | All Rights Reserved</p>
+</footer>
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
